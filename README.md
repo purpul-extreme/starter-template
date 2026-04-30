@@ -10,15 +10,4 @@ rokit install
 wally install
 ```
 
-## File Structure
-```
-.
-├── src/                        # Source code
-│   ├── client/                 # Client scripts
-│   ├── server/                 # Server scripts
-│   └── shared/                 # Shared modules
-├── default.project.json        # Rojo project for publishing
-├── test-place.project.json     # Rojo project for local development
-├── wally.toml                  # Package manifest
-└── rokit.toml                  # Tool versions
-```
+Use `default.project.json` when building or publishing your package, and `test-place.project.json` when developing locally in Roblox Studio with your test scripts.
