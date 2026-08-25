@@ -8,6 +8,7 @@
 
     "luau-lsp.diagnostics.strictDatamodelTypes": true,
     "luau-lsp.fflags.enableNewSolver": true,
+    "luau-lsp.studioPlugin.enabled": true,
 
     "luau-lsp.ignoreGlobs": ["**/_Index/**"],
 
@@ -18,9 +19,6 @@
     "files.exclude": {
         ".git": true,
         ".luaurc": true,
-        "wally.lock": true,
-        ".gitattributes": true,
-        "rokit.toml": true,
         "Packages": true,
         "DevPackages": true,
         "ServerPackages": true,
